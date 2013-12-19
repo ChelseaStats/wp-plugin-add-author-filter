@@ -1,4 +1,3 @@
-wp-plugin-add-author-filter
-===========================
+##### wp-plugin-add-author-filter
 
-Adds a filter to posts page in WordPress admin
+> Adds a filter to posts page in WordPress admin
