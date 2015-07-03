@@ -13,9 +13,9 @@ defined( 'ABSPATH' ) or die();
 
 /*************************************************************************/
 
-if ( ! class_exists( 'hesa_author_filter' ) ) :
+if ( ! class_exists( 'tcr_author_filter' ) ) :
 
-		class hesa_author_filter {
+		class tcr_author_filter {
 
 			function __construct() {
 				add_action('restrict_manage_posts', array( $this, 'author_filter'));
@@ -31,6 +31,6 @@ if ( ! class_exists( 'hesa_author_filter' ) ) :
 			
 
 		}
-		new hesa_author_filter;
+		new tcr_author_filter;
 
 endif;
